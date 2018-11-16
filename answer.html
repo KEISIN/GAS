@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<title>新栄会からのお知らせ</title>
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" />
+</head>
+<body>
+<h3>新栄会　軽スポーツフェスタ　参加の確認</h3><br />
+２月１９日（日）午前9時より 体育館で軽スポーツフェスタが開催されます。<br />
+名前を入力し、参加・不参加を選んで、送信ボタンを押してください（２月11日まで）<br />
+※各年代理事の方は、<a href="mailto:"></a>までメールください（事務連絡に必要です）。
+<br /><hr />
+<form method="post" action="aconv.php" accept-charset="Shift_JIS">
+  名前を入力してください:
+  <input type="text" name="name" value="" style="border:2px black solid;" /><hr />
+  <fieldset style="border:2px black solid;">
+    <legend>どちらかを選んでください</legend>
+    参加します：
+    <input type="radio" name="ans" value="参加" checked="checked" />
+    <br />
+    参加しません：
+    <input type="radio" name="ans" value="不参加" />
+  </fieldset>
+  <input type="hidden" name="grp" value="軽スポーツフェスタ" />
+  <input type="submit" value="送信" />
+</form>
+</body>
+</html>
